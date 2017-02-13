@@ -1,0 +1,23 @@
+package Practice;
+
+public class Class1 {
+
+	//no argument no return
+		void circlearea(){
+			// area of circle = pi*r*r (r = radius of the circle)
+			int r=5;
+			double pi=3.1415;
+			double area;
+			
+			area = pi*r*r;
+			System.out.println("area of the circle : " +area);
+		}
+			
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Class1 carea = new Class1();
+		
+		carea.circlearea();
+	}
+
+}
