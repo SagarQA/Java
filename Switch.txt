@@ -1,0 +1,27 @@
+#Switch
+
+package Practice;
+
+public class Switch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int weeknumber=1;
+		
+		switch(weeknumber){
+		case 1: System.out.println("Sun");
+		break;
+		case 2: System.out.println("Mon");
+		break;
+		default :
+		System.out.println("Tues");
+		break;
+		
+		}
+	}
+
+}
+
+#Output
+Sun

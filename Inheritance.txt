@@ -1,0 +1,45 @@
+#Inheritance
+
+package Practice;
+
+public class Inheritance {
+
+	double dim1,dim2;
+	  
+	  public Inheritance(double d1, double d2) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void ChildInherit(double d1,double d2)
+	  {
+		  dim1=d1;
+		  dim2=d2;  
+	  }
+	  
+	  public double area()
+	  {
+		  return 0.0;
+	  }
+
+}
+
+#ChildInherit
+
+package Practice;
+
+public class ChildInherit extends Inheritance {
+	public ChildInherit(double d1,double d2)
+	{
+		super(d1,d2);
+	}
+	public double area()
+	{
+		return dim1*dim2;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ChildInherit r=new ChildInherit (10,20);
+		System.out.println("area of recatngle"+r.area());
+	}
+
+}
